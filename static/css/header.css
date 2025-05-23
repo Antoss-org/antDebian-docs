@@ -1,0 +1,105 @@
+:root {
+
+	/*					COLORS				 */
+
+	/*				HEADER					 */
+	--header-background: #454545; /* b5b5b5 */
+	--header-background-hover: #645f5f; /* dbd1d1 */
+	--header-a: #cdcbff; /* 05008c */
+	--header-a-hover: #ffbad0; /* 006eff */
+	--header-deblogo-background: #b5b5b5;
+	--header-border-right: #9e9e9e; /* 666666 */
+	--header-border-bottom: #eb0000; /* 666666 */
+
+	/* DARK MODE BUTTON */
+	--darkmode-background: #000;
+	--darkmode-fill: #FFFF99;
+}
+
+.darkmode {
+
+	/*					COLORS				 */
+	/*				HEADER					 */
+	--header-background: #454545; /* b5b5b5 */
+	--header-background-hover: #645f5f; /* dbd1d1 */
+	--header-a: #cdcbff; /* 05008c */
+	--header-a-hover: #ffbad0; /* 006eff */
+	--header-deblogo-background: #b5b5b5;
+	--header-border-right: #9e9e9e; /* 666666 */
+	--header-border-bottom: #eb0000; /* 666666 */
+
+	/* DARK MODE BUTTON */
+	--darkmode-background: #bfbfbf;
+	--darkmode-fill: #0000ff;
+}
+
+
+header {
+	/* //padding-bottom: 1.2rem;
+	//margin-bottom: 1.2rem; */
+	font-size: 0.92rem;
+	background-color: var(--header-background);
+	border-bottom: 0.3rem solid var(--header-border-bottom);
+}
+
+header ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 0.61em 0.7em;
+	border-right: 1px solid var(--header-border-right);
+	margin-left: -0.26em;
+}
+
+header a {
+	color: var(--header-a); /* aea8ff */
+	text-decoration: none;
+}
+
+
+header a:hover, header a:focus {
+	color: var(--header-a-hover);
+}
+
+header img {
+	vertical-align: bottom;
+}
+
+header li:first-child {
+	padding: 0.1em 0.1em 0.11em 1.3%;
+	/* padding: 0.04em 0.1em 0.07em 1.5%; */
+	vertical-align: bottom;
+	background-color: var(--header-deblogo-background);
+}
+
+header li:hover, header li:focus {
+	background-color: var(--header-background-hover);
+}
+
+header li:last-child {
+	padding: 0.4em 1.6% 0.2em 0.2em;
+	float: right;
+}
+
+#theme-switch {
+	height: 2.2em;
+	width: 2.2em;
+	padding: 0;
+	border-radius: 50%;
+	background-color: var(--darkmode-background);
+}
+
+#theme-switch svg {
+	fill: var(--darkmode-fill);
+}
+
+#theme-switch svg:last-child {
+	display: none;
+}
+
+.darkmode #theme-switch svg:first-child {
+	display: none;
+}
+
+.darkmode #theme-switch svg:last-child {
+	display: block;
+}

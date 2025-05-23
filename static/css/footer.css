@@ -1,0 +1,60 @@
+:root {
+
+	/*					COLORS				 */
+
+	/*				FOOTER			*/
+	--footer-background: #222222;
+	--footer-color: #ffffff;
+	--footer-a: #68b1ff;
+	--footer-a-hover: #00d0ff;
+	--footer-a-visited: #e15eff;
+	--footer-a-active: #ff6363;
+
+}
+
+.darkmode {
+
+	/*					COLORS				 */
+
+	/*				FOOTER			*/
+	--footer-background: #222233;
+	--footer-color: #ffffff;
+	--footer-a: #68b1ff;
+	--footer-a-hover: #00d0ff;
+	--footer-a-visited: #e15eff;
+	--footer-a-active: #ff6363;
+
+}
+
+
+
+footer {
+	background-color: var(--footer-background);
+	color: var(--footer-color);
+	padding: 0.9em 5.5%;
+	text-align: left;
+	font-size: 0.8rem;
+}
+
+footer p {
+	padding: 0.5em 0.4rem;
+}
+
+footer a {
+	color: var(--footer-a);
+}
+
+footer a:visited {
+	color: var(--footer-a-visited);
+}
+
+footer a:hover, footer a:focus {
+	color: var(--footer-a-hover);
+}
+
+footer a:active {
+	color: var(--footer-a-active);
+}
+
+
+

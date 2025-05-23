@@ -1,3 +1,16 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://docs.antdebian.antoss.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'antDebian'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'

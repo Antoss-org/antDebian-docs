@@ -1,0 +1,316 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+
+	/*					COLORS				 */
+
+	/*					BODY				 */
+	--body-background: #ffffff;
+	--body-color: #000000;
+	--body-a: #0000d9;
+	--body-a-hover: #008392;
+	--body-a-visited: #8300d6;
+	--body-a-active: #bc0009;
+
+	--debhome-hover: #b8b8b8;
+	--toc-hover: #e1e1e1;
+	--button-hover: #c6c6c6;
+	--aside-comment: #d6d6d6;
+
+}
+
+.darkmode {
+
+	/*					COLORS				 */
+
+	/*					BODY				 */
+	--body-background: #101010;
+	--body-color: #ffffff;
+	--body-a: #8080ff;
+	--body-a-hover: #0ad2ff;
+	--body-a-visited: #bf5eff;
+	--body-a-active: #ff6363;
+
+	--debhome-hover: #444;
+	--toc-hover: #292929;
+	--button-hover: #333333;
+	--aside-comment: #303040;
+
+}
+
+
+
+html {
+	font-family: sans-serif;
+	font-size: 1rem;
+}
+
+body {
+	background-color: var(--body-background);
+	color: var(--body-color);
+}
+
+main a {
+	color: var(--body-a);
+}
+
+main a:visited {
+	color: var(--body-a-visited);
+}
+
+main a:hover, main a:focus {
+	color: var(--body-a-hover);
+}
+
+main a:active {
+	color: var(--body-a-active);
+}
+
+
+h1 {
+	font-size: 2.1rem;
+	padding: 0.1em 1em 0 5.5%;
+	font-weight: 500;
+}
+
+main h2 {
+	font-size: 1.65rem;
+	padding: 0.78em 0 0.58em 0;
+	font-weight: 400;
+}
+
+main h3 {
+	font-size: 1.2rem;
+	padding: 0.75em 0 0.4em 0;
+}
+
+main h4 {
+	padding: 0.95em 0 0.1em 0;
+}
+
+main {
+	padding: 0.6rem 5%;
+}
+
+main p {
+	padding: 0.5em 0.9em;
+}
+
+main ul {
+	padding: 0.75em 2.3em;
+}
+
+main ul li {
+	padding: 0.18em 0.24em;
+}
+
+
+.list-article {
+	list-style: none;
+	padding: 0.7em 1.2em 1.2em 1.2em;
+	border-bottom: 1.5px solid #b8b7b7;
+}
+
+.list-article a:hover {
+	text-decoration: underline;
+}
+
+.list-article h2 {
+	padding: 0.5em 0;
+	font-weight: bold;
+}
+
+.list-article h2 a {
+	font-size: 1.5rem;
+	text-decoration: none;
+}
+
+.list-article p {
+	padding: 0.7em 1.4em;
+}
+
+h3 a {
+	text-decoration: none;
+}
+
+#TableOfContents{
+	padding: 0.9em 9% 1.3em 6%;
+	font-size: 0.86rem;
+}
+
+#TableOfContents ul li{
+	list-style: none;
+	padding: 0.36em 1.1em;
+	border-top: 1px solid #b9b9b9;
+}
+
+#TableOfContents ul li ul {
+	display: none;
+}
+
+#TableOfContents ul li:hover, #TableOfContents ul li:focus{
+	background-color: var(--toc-hover);
+}
+
+#TableOfContents ul li:last-child{
+	border-bottom: 1px solid #b9b9b9;
+}
+
+#TableOfContents a{
+	text-decoration: none;
+}
+
+#TableOfContents a:hover, #TableOfContents a:focus{
+	color: var(--body-a-active);
+	text-decoration: underline;
+}
+
+#debhome p a, #debhome h3 a {
+	color: var(--body-a);
+}
+#debhome p a:visited {
+	color: var(--body-a-visited);
+}
+#debhome p a:hover, #debhome h3 a:hover {
+	color: var(--body-a-hover);
+}
+#debhome p a:active, #debhome h3 a:active {
+	color: var(--body-a-active);
+}
+
+.home-column {
+	width: 43%;
+	display: inline-block;
+	vertical-align: top;
+	padding: 3%;
+	border: 1px solid var(--body-background);
+}
+
+.home-column p {
+	padding: 1em;
+}
+
+#debhome section {
+	border: 1px solid var(--body-background);;
+}
+
+#debhome section:hover {
+	border: 1px solid var(--debhome-hover);
+}
+
+.home-column h3 {
+	padding-top: 0.9em;
+	padding-bottom: 0.3em;
+}
+
+#debhome h2 {
+	text-align: center;
+}
+
+#debhome section h2 a {
+	text-decoration: none;
+	color: var(--body-a);
+}
+
+#debhome section h2 a:hover {
+	text-decoration: underline;
+	color: var(--body-a-hover);
+}
+
+
+#debhome .list {
+	padding: 0.7em;
+}
+
+#debhome .list p {
+	padding: 0.7em;
+}
+
+.downloads {
+	text-align: center;
+	padding-top: 0.3em;
+	padding-bottom: 2em;
+}
+
+.downloads h2 {
+	font-size: 2.25rem;
+	background-color: #df0700;
+	width: 38%;
+	min-width: 14rem;
+	max-width: 25rem;
+	margin: 2rem auto 1rem auto;
+	border-radius: 3rem;
+	padding: 0.5em 0.1em 0.5em 0.1em;
+}
+
+.downloads h2:hover {
+	background-color: #ff4848;
+}
+
+.downloads h2 a {
+	color: #d9f8ff;
+	text-decoration: none;
+}
+
+.downloads h2 a:hover {
+	color: #10008d;
+	text-decoration: underline;
+}
+
+.infobutton {
+	text-align: center;
+	padding: 1em;
+}
+
+.infobutton button {
+	padding: 0.24em 0.45em;
+	font-size: 1rem;
+	background-color: var(--toc-hover);
+	border: 1.5px solid #838383;
+	border-radius: .6em;
+}
+
+.infobutton button:hover {
+	background-color: var(--button-hover);
+}
+.infobutton img {
+	vertical-align: middle;
+	width: 2.1rem;
+}
+
+.button-text {
+	padding-left: 0.2em;
+	display: inline-block;
+	text-decoration: underline;
+}
+
+
+.asidecomment {
+	background-color: var(--aside-comment);
+	font-size: 0.9rem;
+	width: 12rem;
+	margin: 0.7rem;
+	float: inline-end;
+	padding: 0.8rem 0.5rem 1.4rem 0.9rem;
+	font-style: italic;
+}
+
+.asidecomment img {
+	vertical-align: bottom;
+	width: 2.3rem;
+	padding: 0.05rem;
+}
+
+.quotes {
+	font-family: Arial, sans-serif;
+	font-size: 1.1rem;
+	vertical-align: bottom;
+	padding: 0;
+	font-weight: bold;
+}
+
+
+
