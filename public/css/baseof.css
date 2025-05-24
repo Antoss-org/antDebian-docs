@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+
+	/*					COLORS				 */
+
+	--body-background: #ffffff;
+	--body-color: #000000;
+	--body-a: #0000d9;
+	--body-a-hover: #008392;
+	--body-a-visited: #8300d6;
+	--body-a-active: #bc0009;
+
+}
+
+.darkmode {
+
+	/*					COLORS				 */
+
+	--body-background: #101010;
+	--body-color: #ffffff;
+	--body-a: #8080ff;
+	--body-a-hover: #0ad2ff;
+	--body-a-visited: #bf5eff;
+	--body-a-active: #ff6363;
+
+}
+
+
+html {
+	font-family: sans-serif;
+	font-size: 1rem;
+}
+
+body {
+	background-color: var(--body-background);
+	color: var(--body-color);
+}
+
+main a {
+	color: var(--body-a);
+}
+
+main a:visited {
+	color: var(--body-a-visited);
+}
+
+main a:hover, main a:focus {
+	color: var(--body-a-hover);
+}
+
+main a:active {
+	color: var(--body-a-active);
+}

@@ -1,0 +1,100 @@
+:root {
+
+	/*					COLORS				 */
+
+
+	/*			PADDING				*/
+
+	/* Padding order:
+	
+	1,2 - top-bottom, right-left
+	1,2,3 - top, right-left, bottom
+	1,2,3,4 - top, right, bottom, left*/
+	--pad-list-h1: 0.1em 1em 0 5.5%;
+	--pad-list-h2: 0.78em 0 0.58em 0;
+	--pad-list-h3: 0.75em 0 0.4em 0;
+	--pad-list-h4: 0.95em 0 0.1em 0;
+	--pad-list: 0.6rem 5%;
+	--pad-list-p: 0.5em 0.9em;
+	--pad-list-ul: 0.75em 2.3em;
+	--pad-list-li: 0.18em 0.24em;
+	--pad-list-article: 0.7em 1.2em 1.2em 1.2em;
+	--pad-list-article-h2: 0.5em 0;
+	--pad-list-article-p: 0.7em 1.4em;
+
+}
+
+.darkmode {
+
+	/*					COLORS				 */
+
+
+
+}
+
+h1 {
+	font-size: 2.1rem;
+	padding: var(--pad-list-h1);
+	font-weight: 500;
+}
+
+h2 {
+	font-size: 1.65rem;
+	padding: var(--pad-list-h2);
+	font-weight: 400;
+}
+
+h3 {
+	font-size: 1.2rem;
+	padding: var(--pad-list-h3);
+}
+
+h3 a {
+	text-decoration: none;
+}
+
+h4 {
+	padding: var(--pad-list-h4);
+}
+
+main {
+	padding: var(--pad-list);
+}
+
+p {
+	padding: var(--pad-list-p);
+}
+
+main ul {
+	padding: var(--pad-list-ul);
+}
+
+main ul li {
+	padding: var(--pad-list-li);
+}
+
+
+.list-article {
+	list-style: none;
+	padding: var(--pad-list-article);
+	border-bottom: 1.5px solid #b8b7b7;
+}
+
+.list-article a:hover {
+	text-decoration: underline;
+}
+
+.list-article h2 {
+	padding: var(--pad-list-article-h2);
+	font-weight: bold;
+}
+
+.list-article h2 a {
+	font-size: 1.5rem;
+	text-decoration: none;
+}
+
+.list-article p {
+	padding: var(--pad-list-article-p);
+}
+

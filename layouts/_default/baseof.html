@@ -3,6 +3,12 @@
 
 <head>
 	{{ partial "head.html" . }}
+	<link rel="stylesheet" href="/css/baseof.css">
+	<link rel="stylesheet" href="/css/header.css">
+	<link rel="stylesheet" href="/css/footer.css">
+	{{ block "cssfile" . }}
+
+	{{ end }}
 </head>
 
 <body>

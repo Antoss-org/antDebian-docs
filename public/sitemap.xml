@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/developers/developer-reference/</loc>
+  </url><url>
+    <loc>http://localhost:1313/developers/guide-maintainers/</loc>
+  </url><url>
+    <loc>http://localhost:1313/developers/intro-debian-packaging/</loc>
+  </url><url>
+    <loc>http://localhost:1313/developers/policy-manual/</loc>
+  </url><url>
+    <loc>http://localhost:1313/users/administrator-handbook/</loc>
+  </url><url>
+    <loc>http://localhost:1313/users/beginner-handbook/</loc>
+  </url><url>
+    <loc>http://localhost:1313/users/installation-guide/</loc>
+  </url><url>
+    <loc>http://localhost:1313/users/linux-faq/</loc>
+  </url><url>
+    <loc>http://localhost:1313/users/reference-card/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/developers/</loc>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/users/</loc>
+  </url>
+</urlset>

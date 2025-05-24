@@ -1,0 +1,40 @@
+<svg
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	viewBox="0 0 990 990">
+
+	<path
+
+		d="
+			M50,120
+			l0 590
+			q210,10 390,120
+			l0 -590
+			q-210,-130 -390,-120
+			Z"
+
+		stroke="#000"
+		stroke-width="50"
+		fill="#000000"
+
+	/>
+
+		<path
+
+		d="
+			M55,120
+			l0 590
+			q-210,10 -390,120
+			l0 -590
+			q210,-130 390,-120
+			Z"
+
+		stroke="#000000"
+		stroke-width="50"
+		fill="#000000"
+
+		transform="translate(890 0)"
+
+	/>
+
+</svg>

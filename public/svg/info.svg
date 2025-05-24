@@ -1,0 +1,47 @@
+<svg
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	viewBox="0 0 1000 1000"
+	height="24px"
+	weight="24px">
+
+
+
+	<circle
+
+		cx="500" cy="500"
+		r="440"
+
+		stroke="#000"
+		stroke-width="86"
+		fill="none"
+
+	/>
+
+	<circle
+
+		cx="500" cy="245"
+		r="55"
+
+		stroke="#000"
+		stroke-width="60"
+		fill="#000"
+
+	/>
+
+	<polygon
+
+		points=
+			"
+			530,440
+			470,440
+			460,785
+			540,785"
+
+		stroke="#000"
+		stroke-width="60"
+		fill="#000"
+
+	/>
+
+</svg>

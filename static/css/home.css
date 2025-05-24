@@ -1,0 +1,111 @@
+:root {
+
+	/*					COLORS				 */
+
+	--debhome-hover: #b8b8b8;
+
+
+	/*			PADDING				*/
+
+	/* Padding order:
+	1,2 - top-bottom, right-left
+	1,2,3 - top, right-left, bottom
+	1,2,3,4 - top, right, bottom, left*/
+	--pad-home-h1: 0.1em 1em 0 5.5%;
+	--pad-home-column: 3%;
+	--pad-home-column-h3: 0.9em 0 0.3em 0;
+	--pad-home-column-p: 1em;
+	--pad-home-list: 0.7em;
+	--pad-home-list-p: 0.7em;
+	--pad-home-download: 0.3em 0 2em 0;
+	--pad-home-download-h2: 0.5em 0.1em 0.5em 0.1em;
+
+}
+
+.darkmode {
+
+	/*					COLORS				 */
+
+	--home-hover: #444;
+
+}
+
+h1 {
+	font-size: 2.1rem;
+	padding: var(--pad-home-h1);
+	font-weight: 500;
+}
+
+h2 {
+	text-align: center;
+}
+
+.home-column {
+	width: 43%;
+	display: inline-block;
+	vertical-align: top;
+	padding: var(--pad-home-column);
+	border: 1px solid #00000000;
+}
+
+.home-column h3 {
+	padding: var(--pad-home-column-h3);
+}
+
+.home-column p {
+	padding: var(--pad-home-column-p);
+}
+
+section {
+	border: 1px solid #00000000;;
+}
+
+section:hover {
+	border: 1px solid var(--debhome-hover);
+}
+
+section h2 a {
+	text-decoration: none;
+}
+
+section h2 a:hover {
+	text-decoration: underline;
+}
+
+.list {
+	padding: var(--pad-home-list);
+}
+
+.list p {
+	padding: var(--pad-home-list-p);
+}
+
+.downloads {
+	text-align: center;
+	padding: var(--pad-home-download);
+}
+
+.downloads h2 {
+	font-size: 2.25rem;
+	background-color: #df0700;
+	width: 38%;
+	min-width: 14rem;
+	max-width: 25rem;
+	margin: 2rem auto 1rem auto;
+	border-radius: 3rem;
+	padding: var(--pad-home-download-h2);
+}
+
+.downloads h2:hover {
+	background-color: #ff4848;
+}
+
+.downloads h2 a {
+	color: #d9f8ff;
+	text-decoration: none;
+}
+
+.downloads h2 a:hover {
+	color: #10008d;
+	text-decoration: underline;
+}
