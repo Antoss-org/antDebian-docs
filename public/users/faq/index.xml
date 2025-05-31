@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Debian GNU/Linux FAQ on antDebian</title>
+    <link>http://localhost:1313/users/faq/</link>
+    <description>Recent content in Debian GNU/Linux FAQ on antDebian</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/users/faq/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/users/faq/0-intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/users/faq/0-intro/</guid>
+      <description>The Debian GNU/Linux FAQ&#xA;Version 12.1&#xA;Copyright © 1996-2024 Software in the Public Interest&#xA;Permission is granted to make and distribute verbatim copies of this document provided the copyright notice and this permission notice are preserved on all copies.&#xA;Permission is granted to copy and distribute modified versions of this document under the conditions for verbatim copying, provided that the entire resulting derived work is distributed under the terms of a permission notice identical to this one.</description>
+    </item>
+  </channel>
+</rss>

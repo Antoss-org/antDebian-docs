@@ -1,5 +1,5 @@
 ---
-title: "Explaining Debian: The Universal Operating System"
+title: "Understanding Debian: The Universal Operating System"
 ---
 
 <div class="downloads">
